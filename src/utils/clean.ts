@@ -17,7 +17,7 @@ export function hasNaughtyWord(id: string) {
 	return false;
 }
 
-export function cleanNanoidWrapper(
+export function niceNanoidWrapper(
 	customAlphabet: (alphabet: string) => NanoidFunction
 ) {
 	const gen = customAlphabet('6789BCDFGHJKLMNPQRTWbcdfghjkmnpqrtwz');
@@ -32,7 +32,7 @@ export function cleanNanoidWrapper(
 	};
 }
 
-export function cleanNanoidAsyncWrapper(
+export function niceNanoidAsyncWrapper(
 	customAlphabet: (alphabet: string) => AsyncNanoidFunction
 ) {
 	const gen = customAlphabet('6789BCDFGHJKLMNPQRTWbcdfghjkmnpqrtwz');
