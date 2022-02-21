@@ -1,9 +1,9 @@
 {
-	"name": "nanoid-clean",
+	"name": "nanoid-nice",
 	"version": "0.0.0",
-	"description": "nanoid with obscene words filtered out",
+	"description": "drop-in replacement nanoid with easily distinguishable characters by default and with obscene words filtered out",
 	"license": "MIT",
-	"repository": "leonzalion/nanoid-clean",
+	"repository": "leonzalion/nanoid-nice",
 	"author": {
 		"name": "Leon Si",
 		"email": "contact@leonzalion.com",
