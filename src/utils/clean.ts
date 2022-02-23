@@ -1,4 +1,4 @@
-import naughtyWords from 'naughty-words/en.json' assert { type: 'json' };
+import naughtyWords from './naughty-words.js';
 import type { AsyncNanoidFunction, NanoidFunction } from '~/types.js';
 
 export function hasNaughtyWord(id: string) {
