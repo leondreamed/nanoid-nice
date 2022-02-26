@@ -1,6 +1,6 @@
 {
 	"name": "nanoid-nice",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "drop-in replacement nanoid with easily distinguishable characters by default and with obscene words filtered out",
 	"license": "MIT",
 	"repository": {
