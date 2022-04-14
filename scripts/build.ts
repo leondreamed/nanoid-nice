@@ -1,7 +1,7 @@
-import { createRequire } from 'node:module';
-import fs from 'node:fs';
 import { execaCommandSync as exec } from 'execa';
-import { copyPackageFiles, rmDist, chProjectDir } from 'lion-system';
+import { chProjectDir, copyPackageFiles, rmDist } from 'lion-system';
+import fs from 'node:fs';
+import { createRequire } from 'node:module';
 
 const __require = createRequire(import.meta.url);
 
@@ -18,4 +18,4 @@ fs.writeFileSync(
 	`export default ${JSON.stringify(naughtyWords)}`
 );
 
-copyPackageFiles();
+await copyPackageFiles();

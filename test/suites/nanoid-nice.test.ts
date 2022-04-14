@@ -1,4 +1,5 @@
-import { test, expect } from 'vitest';
+import { expect,test } from 'vitest';
+
 import { hasNaughtyWord } from '~/utils/clean.js';
 
 test('filters out bad words', () => {

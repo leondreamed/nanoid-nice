@@ -1,5 +1,6 @@
-import naughtyWords from './naughty-words.js';
 import type { AsyncNanoidFunction, NanoidFunction } from '~/types.js';
+
+import naughtyWords from './naughty-words.js';
 
 export function hasNaughtyWord(id: string) {
 	const idWithNumbersReplaced = id

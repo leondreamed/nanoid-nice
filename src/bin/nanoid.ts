@@ -1,7 +1,8 @@
 #!/usr/bin/env node
 
 import process from 'node:process';
-import { nanoid, customAlphabet } from '../index.js';
+
+import { customAlphabet,nanoid } from '../index.js';
 
 function print(msg: string) {
 	process.stdout.write(msg + '\n');
