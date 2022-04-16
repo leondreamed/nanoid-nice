@@ -2,7 +2,7 @@
 
 import process from 'node:process';
 
-import { customAlphabet,nanoid } from '../index.js';
+import { customAlphabet, nanoid } from '../index.js';
 
 function print(msg: string) {
 	process.stdout.write(msg + '\n');
