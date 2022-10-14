@@ -38,7 +38,7 @@ export function niceNanoidWrapper(
 export function niceNanoidAsyncWrapper(
 	customAlphabet: (alphabet: string) => AsyncNanoidFunction
 ) {
-	const gen = customAlphabet('6789BCDFGHJKLMNPQRTWbcdfghjkmnpqrtwz');
+	const gen = customAlphabet(niceAlphabet);
 
 	return async function (size = 30) {
 		let id = await gen(size);
