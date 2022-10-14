@@ -1,4 +1,4 @@
-import * as nanoidModule from 'nanoid/async/index.js';
+import * as nanoidModule from 'nanoid/async';
 
 import { niceNanoidAsyncWrapper } from '~/utils/clean.js';
 

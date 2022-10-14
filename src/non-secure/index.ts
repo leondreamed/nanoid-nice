@@ -1,4 +1,4 @@
-import * as nanoidModule from 'nanoid/non-secure/index.js';
+import * as nanoidModule from 'nanoid/non-secure';
 
 import { niceNanoidWrapper } from '~/utils/clean.js';
 
