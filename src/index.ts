@@ -5,3 +5,4 @@ import { niceNanoidWrapper } from '~/utils/clean.js';
 export const nanoid = niceNanoidWrapper(nanoidModule.customAlphabet);
 export const { customAlphabet, customRandom, urlAlphabet, random } =
 	nanoidModule;
+export { hasNaughtyWord } from './utils/clean.js'
