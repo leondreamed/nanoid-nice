@@ -18,10 +18,12 @@ export function hasNaughtyWord(id: string) {
 	return false;
 }
 
+export const niceAlphabet = '6789BCDFGHJKLMNPQRTWbcdfghjkmnpqrtwz'
+
 export function niceNanoidWrapper(
 	customAlphabet: (alphabet: string) => NanoidFunction
 ) {
-	const gen = customAlphabet('6789BCDFGHJKLMNPQRTWbcdfghjkmnpqrtwz');
+	const gen = customAlphabet(niceAlphabet);
 
 	return function (size = 30) {
 		let id = gen(size);
